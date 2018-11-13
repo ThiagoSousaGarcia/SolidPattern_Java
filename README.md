@@ -1,5 +1,5 @@
 # SolidPattern_Java
-Desenvolvimento de um projeto que utiliza todos os princípios SOLID, em cada pacote há um exemplo de utilização dos princípios e também uma pequena explicação de cada príncipio e como está sendo utilizado nas classes criadas.
+Desenvolvimento de um projeto que utiliza todos os princípios SOLID com a linguagem Java, em cada pacote há um exemplo de utilização e também uma breve explicação de cada princípio, além de explicar como estão sendo utilizados nas classes criadas.
 
 ## Referências:
 
