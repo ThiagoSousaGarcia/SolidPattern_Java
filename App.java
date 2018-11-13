@@ -12,6 +12,7 @@ public class App{
         /*Testando SRP*/
         Conta c = new Conta(15);
         DebitaConta d = new DebitaConta();
+        
         double valor = d.debitar(c,10);
         
         System.out.println("TESTANDO SRP");
@@ -22,6 +23,7 @@ public class App{
         /*Testando OCP*/
         ContaCorrente cc = new ContaCorrente(20);
         ContaPoupanca cp = new ContaPoupanca(25);
+        
         double descontop = cp.descontar();
         double descontoc = cc.descontar();
         
@@ -61,13 +63,18 @@ public class App{
         
         contaDIPs.add(contaCorrenteDIP);
         contaDIPs.add(contaPoupancaDIP);
+       
         System.out.println("TESTANDO DIP");
         System.out.println("-----------------"); 
+        
         Banco b = new Banco(contaDIPs);
+        
         System.out.println("Os saldos das contas contidas no banco são: ");
         b.mostrar_todossaldos();
+        
         b.descontos_totais();
         System.out.println("-----------------");
+        
         System.out.println("Os saldos das contas contidas no banco após os descontos são: ");
         b.mostrar_todossaldos();
         System.out.println("-----------------"); 
