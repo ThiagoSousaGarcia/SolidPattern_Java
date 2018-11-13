@@ -9,6 +9,8 @@ public class ContaPessoaJuridica implements InterfaceJuridica{
 
     /*Supondo que a conta de pessoa jurídica é de 30% do saldo*/ 
     public double descontojuridica(){
-        return this.saldo - 0.3*this.saldo;
+        this.saldo = this.saldo - 0.3*this.saldo; 
+        
+        return this.saldo;
     }
 }
