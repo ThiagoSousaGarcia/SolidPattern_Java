@@ -1,6 +1,3 @@
-package dip;
-
-
 public class ContaPoupancaDIP implements ContaDIP{
     double saldo;
 

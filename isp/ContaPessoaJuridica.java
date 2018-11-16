@@ -1,5 +1,3 @@
-package isp;
-
 public class ContaPessoaJuridica implements InterfaceJuridica{
     double saldo;
 

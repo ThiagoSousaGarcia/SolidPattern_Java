@@ -1,5 +1,3 @@
-package srp;
-
 public class Conta{
     double valor;
 

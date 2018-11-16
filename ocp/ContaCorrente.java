@@ -1,5 +1,3 @@
-package ocp;
-
 public class ContaCorrente extends Debitar{
     double saldo;
 

@@ -1,5 +1,3 @@
-package ocp;
-
 public class ContaPoupanca extends Debitar{
     double saldo;
 

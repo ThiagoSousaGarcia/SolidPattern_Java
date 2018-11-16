@@ -1,5 +1,3 @@
-package lsp;
-
 public class ContaPoupancaLSP extends ContaLSP{
     double saldo;
 

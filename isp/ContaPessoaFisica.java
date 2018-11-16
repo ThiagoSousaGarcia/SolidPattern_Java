@@ -1,5 +1,3 @@
-package isp;
-
 public class ContaPessoaFisica implements InterfaceFisica{
     double saldo;
 

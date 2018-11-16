@@ -1,5 +1,3 @@
-package lsp;
-
 public class ContaCorrenteLSP extends ContaLSP{
     double saldo;
 

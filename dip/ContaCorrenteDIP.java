@@ -1,5 +1,3 @@
-package dip;
-
 public class ContaCorrenteDIP implements ContaDIP{
     double saldo;
 
