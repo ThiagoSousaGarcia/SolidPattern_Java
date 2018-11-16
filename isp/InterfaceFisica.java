@@ -1,3 +1,3 @@
 public interface InterfaceFisica{
-    public double descontofisica();
+    public double descontofisica(ContaPessoaFisica cpf);
 }

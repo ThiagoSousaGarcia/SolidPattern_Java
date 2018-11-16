@@ -1,3 +1,3 @@
 public interface InterfaceJuridica{
-    public double descontojuridica();
+    public double descontojuridica(ContaPessoaJuridica cpj);
 }
